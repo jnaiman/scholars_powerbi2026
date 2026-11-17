@@ -7,7 +7,7 @@ examples:
   - filename: datatoviz
     type: iodide
     title: Link to the Data Viz Picker
-    description: Advice for picking the right visualization for you data.
+    description: Advice for picking the right visualization for your data.
     link: https://www.data-to-viz.com/#spider
   - filename: vizcaveats
     type: iodide

@@ -66,8 +66,8 @@ notes:
 
 **highlight:**
 1. lecture slides
-2. resources/data**
-3. walkthroughs** -- point out PDF versions have slightly nicer formatting, the HTML is translatable
+2. resources/data
+3. walkthroughs -- point out PDF versions have slightly nicer formatting, the HTML is translatable
 
 **pause for questions**
 
@@ -79,32 +79,32 @@ notes:
 
 ### My background
 
-<img src="images/intro_naiman1.png" alt="drawing" width="800"/>
+<img src="images/intro_naiman1.png" alt="Simulation rendering of the cosmic web from the Illustris project: glowing orange gas clusters connected by a network of blue filaments." width="800"/>
 
 ---
 
 ### My background
 
-<img src="images/intro_naiman2.png" alt="drawing" width="800"/>
+<img src="images/intro_naiman2.png" alt="The same Illustris cosmic web rendering with the word 'SCIENCE!' overlaid." width="800"/>
 
 ---
 
 ### My background
 
-<img src="images/intro_naiman3.png" alt="drawing" width="800"/>
+<img src="images/intro_naiman3.png" alt="The Illustris rendering annotated: blue 'Dark matter filaments (most of the matter in the Universe)' and bright 'Concentrations where gas collects and forms galaxies'; a scale bar reads about 3 x 10^18 meters." width="800"/>
 
 ---
 
 ### My background
 
-<img src="images/intro_naiman4.png" alt="drawing" width="800"/>
+<img src="images/intro_naiman4.png" alt="The Illustris rendering with three zoomed-in insets showing individual simulated galaxies, two spirals and one elliptical, inside the cosmic web." width="800"/>
 
 ---
 
 ### My background
 #### ytini.com
 
-<img src="images/intro_naiman5.png" alt="drawing" height="400"/>
+<img src="images/intro_naiman5.png" alt="Diagram of volume rendering: a camera looks through an image plane into a 3D grid of blue simulation data, with an opacity map and color map that control how data values become pixels." height="400"/>
 
 Naiman et al. 2017, Borkiewicz et al. 2018
 
@@ -113,7 +113,7 @@ Naiman et al. 2017, Borkiewicz et al. 2018
 ### My background
 #### ytini.com
 
-<img src="images/intro_naiman6.png" alt="drawing" height="400"/>
+<img src="images/intro_naiman6.png" alt="Comparison of a 'Simple' and a 'Complex' transfer function: a linear opacity map and grayscale color map give a gray rendering, while a multi-peaked opacity map and multi-color map give a detailed orange-and-purple rendering." height="400"/>
 
 Naiman et al. 2017, Borkiewicz et al. 2018
 
@@ -122,7 +122,7 @@ Naiman et al. 2017, Borkiewicz et al. 2018
 ### My background
 #### ytini.com
 
-<img src="images/intro_naiman7.png" alt="drawing" height="400"/>
+<img src="images/intro_naiman7.png" alt="Cinematic rendering of a cosmological simulation with glowing gas bubbles and blue filaments, made by AVL/NCSA at the University of Illinois with data from Brian O'Shea, Michigan State." height="400"/>
 
 Naiman et al. 2017, Borkiewicz et al. 2018
 
@@ -131,7 +131,7 @@ Naiman et al. 2017, Borkiewicz et al. 2018
 ### My background
 #### ytini.com
 
-<img src="images/intro_naiman8.png" alt="drawing" height="400"/>
+<img src="images/intro_naiman8.png" alt="Two scientific visualizations from the CADENS project (cadens.ncsa.illinois.edu): the Sun with looping blue magnetic field lines, and the solar wind streaming past a planet." height="400"/>
 
 Naiman et al. 2017, Borkiewicz et al. 2018
 
@@ -140,7 +140,7 @@ Naiman et al. 2017, Borkiewicz et al. 2018
 ### My background
 #### Scientific Digitization
 
-<img src="https://www.astronaiman.com/assets/img/digitization_project/figure_axis_reading_sm-1400.webp" height="500" />
+<img src="https://www.astronaiman.com/assets/img/digitization_project/figure_axis_reading_sm-1400.webp" height="500" alt="Image showing optical character recognition (OCR) applied to a technical image of the sky with declination (y) and right ascension (x) axis.  The raw OCR is processed into metadata to be added to the original image to give its location in the sky." />
 
 Naiman et al. 2022, TPDL conference
 

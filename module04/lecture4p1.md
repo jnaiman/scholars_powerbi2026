@@ -30,27 +30,27 @@ so we need a way to transform our data
 ## Why use PowerQuery?
 
 We want to take our data from this:
-<img src="images/datapivoted.png" style='border:1px solid #000000'>
+<img src="images/datapivoted.png" style='border:1px solid #000000' alt="Excel table in the original 'wide' format: a Years column (1917, 1918, ...) followed by one column per country (United States, Brazil, Russia, Japan, Vietnam, Germany).">
 
 ---
 
 ## Why use PowerQuery?
 
 We want to take our data from this:
-<img src="images/datapivoted.png" style='border:1px solid #000000'>
+<img src="images/datapivoted.png" style='border:1px solid #000000' alt="Excel table in the original 'wide' format: a Years column (1917, 1918, ...) followed by one column per country (United States, Brazil, Russia, Japan, Vietnam, Germany).">
 
 to this:
-<img src="images/dataunpivoted.png" style='border:1px solid #000000'>
+<img src="images/dataunpivoted.png" style='border:1px solid #000000' alt="Excel table in the unpivoted 'long' format with three columns: Date (1/1/17), Country (United States, Brazil, Russia, ...) and corgis born.">
 
 ---
 
 ## Why use PowerQuery?
 
 We want to take our data from this:
-<img src="images/datapivoted.png" style='border:1px solid #000000'>
+<img src="images/datapivoted.png" style='border:1px solid #000000' alt="Excel table in the original 'wide' format: a Years column (1917, 1918, ...) followed by one column per country (United States, Brazil, Russia, Japan, Vietnam, Germany).">
 
 to this:
-<img src="images/dataunpivoted.png" style='border:1px solid #000000'>
+<img src="images/dataunpivoted.png" style='border:1px solid #000000' alt="Excel table in the unpivoted 'long' format with three columns: Date (1/1/17), Country (United States, Brazil, Russia, ...) and corgis born.">
 
 in order to "play nice" with PowerBI.
 
@@ -70,7 +70,7 @@ so we are mostly going to learn by doing, but lets just look at a quick overview
 
 ## What is PowerQuery?
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Power_Query_User_Interface.png">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Power_Query_User_Interface.png" alt="The Power Query editor with its five numbered sections: the ribbon across the top, the queries panel on the left, the data view in the middle, the query settings on the right and the status bar along the bottom.">
 
 notes:
 there are 5 main sections of the powerquery interface
@@ -79,7 +79,7 @@ there are 5 main sections of the powerquery interface
 
 ## What is PowerQuery?
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Power_Query_User_Interface.png" width="80%">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Power_Query_User_Interface.png" width="80%" alt="The Power Query editor with its five numbered sections: the ribbon across the top, the queries panel on the left, the data view in the middle, the query settings on the right and the status bar along the bottom.">
 
 An [overview of the Power Query](https://en.wikipedia.org/wiki/Power_Query#/media/File:Power_Query_User_Interface.png) user interface, including
 1. the ribbon 
@@ -92,7 +92,7 @@ An [overview of the Power Query](https://en.wikipedia.org/wiki/Power_Query#/medi
 
 ## What is PowerQuery?
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Power_Query_User_Interface.png" width="80%">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Power_Query_User_Interface.png" width="80%" alt="The Power Query editor with its five numbered sections: the ribbon across the top, the queries panel on the left, the data view in the middle, the query settings on the right and the status bar along the bottom.">
 
 An [overview of the Power Query](https://en.wikipedia.org/wiki/Power_Query#/media/File:Power_Query_User_Interface.png) user interface, including
 1. the ribbon $\leftarrow$
@@ -108,7 +108,7 @@ we'll spend most of our time clicking buttons in the top ribbon and the data vie
 
 ## How to change the language
 
-<img src="images/changingLanguageExcel.png" style='border:1px solid #000000'>
+<img src="images/changingLanguageExcel.png" style='border:1px solid #000000' alt="Excel for Mac with the Tools menu open and 'Language...' highlighted.">
 (on a Mac)
 
 notes:

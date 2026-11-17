@@ -5,7 +5,7 @@ tags:
   - installations
 description: >-
   Get ready to use Excel and PowerQuery (pre-workshop).
-date: 2025-09-25
+date: 2025-08-27
 ---
 
 <br/><br/><br/>
@@ -84,7 +84,7 @@ please see the link to these webstore instructions -- again, you can do this whi
 See the "Install Excel through the WebStore" under the first Module in the Syllabus for more install instructions.
 
 Basic [instructions on the WebStore page](https://webstore.illinois.edu/shop/product.aspx?zpid=2816) for installing Microsoft Office:
- 1. Click on: [go.illinois.edu/office365](go.illinois.edu/office365)
+ 1. Click on: [go.illinois.edu/office365](https://go.illinois.edu/office365)
 
 ---
 
@@ -93,7 +93,7 @@ Basic [instructions on the WebStore page](https://webstore.illinois.edu/shop/pro
 See the "Install Excel through the WebStore" under the first Module in the Syllabus for more install instructions.
 
 Basic [instructions on the WebStore page](https://webstore.illinois.edu/shop/product.aspx?zpid=2816) for installing Microsoft Office:
- 1. Click on: [go.illinois.edu/office365](go.illinois.edu/office365)
+ 1. Click on: [go.illinois.edu/office365](https://go.illinois.edu/office365)
  2. Log in with your UIUC email address and credentials
 
 ---
@@ -103,7 +103,7 @@ Basic [instructions on the WebStore page](https://webstore.illinois.edu/shop/pro
 See the "Install Excel through the WebStore" under the first Module in the Syllabus for more install instructions.
 
 Basic [instructions on the WebStore page](https://webstore.illinois.edu/shop/product.aspx?zpid=2816) for installing Microsoft Office:
- 1. Click on: [go.illinois.edu/office365](go.illinois.edu/office365)
+ 1. Click on: [go.illinois.edu/office365](https://go.illinois.edu/office365)
  2. Log in with your UIUC email address and credentials
  3. Find “Install Office” or “Install and more” on the upper right of the screen and click on “Install Microsoft 365 apps”:
  <img src="images/excel/install_excel.png" style='border:1px solid #000000' alt="Image of the expanded 'Install and more' dropdown at the top of the go.illinois.edu/office365 page with 'Install Microsoft 365 apps' selected.">
@@ -118,14 +118,14 @@ again, this is in the Walkthrough #3 as well, so feel free to access the screens
 See the "Install Excel through the WebStore" under the first Module in the Syllabus for more install instructions.
 
 Basic [instructions on the WebStore page](https://webstore.illinois.edu/shop/product.aspx?zpid=2816) for installing Microsoft Office:
- 1. Click on: [go.illinois.edu/office365](go.illinois.edu/office365)
+ 1. Click on: [go.illinois.edu/office365](https://go.illinois.edu/office365)
  2. Log in with your UIUC email address and credentials
  3. Find “Install Office” or “Install and more” on the upper right of the screen and click on “Install Microsoft 365 apps”.
  4. You can then click on the “Install Office” (or similar) button that pops up:
  <img src="images/excel/install_office.png" style='border:1px solid #000000' alt="Image of the installation of 'Install Office' button highlighted to download and install Microsoft office.">
 
- notes:
- as a reminder **you just need to be sure to have this done before we get to Module 4!**
+notes:
+as a reminder **you just need to be sure to have this done before we get to Module 4!**
 
- we are happy to walk around now and make sure things install ok
+we are happy to walk around now and make sure things install ok
 

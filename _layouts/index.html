@@ -10,7 +10,7 @@ layout: default
             </div>
             <div class="column">
                 <figure class="image">
-                    <img src='{{"/assets/undraw/undraw_growth-analytics_bhy7.svg" | relative_url}}'>
+                    <img src='{{"/assets/undraw/undraw_growth-analytics_bhy7.svg" | relative_url}}' alt="">
                 </figure>
             </div>
         </div>
@@ -28,8 +28,8 @@ layout: default
 {% for f in week_pages %}
     {% assign tags = "" | split: ", " %}
     {% assign subpages = sorted_pages | where: "dir", f.dir %}
-    {% assign lectures = subpages | where: "layout", "lecture" | sorted: "date" %}
-    {% assign assignments = subpages | where: "layout", "assignment" | sorted: "date" %}
+    {% assign lectures = subpages | where: "layout", "lecture" | sort: "date" %}
+    {% assign assignments = subpages | where: "layout", "assignment" | sort: "date" %}
         {% for subpage in subpages %}
             {% assign tags = tags | concat: subpage.tags %}
         {% endfor %}
@@ -43,7 +43,7 @@ layout: default
                 <figure class="image">
                 {% if f.icon %}
                     <a href="{{f.url | relative_url }}">
-                        <img src="{{ '/assets/undraw/' | append: f.icon | relative_url }}">
+                        <img src="{{ '/assets/undraw/' | append: f.icon | relative_url }}" alt="">
                     </a>
                 {% endif %}
                 </figure>

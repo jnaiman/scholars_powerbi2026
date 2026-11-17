@@ -60,8 +60,8 @@ The trick for tutorials/videos is to search for "PowerBI service" or "online-onl
 
 * [Google Data Studio/Looker Studio](https://lookerstudio.google.com/)
   * pros: interactive visualizations, easy to share/embed in websites
-  * cons: less features than PowerBI, more "tricky" to use
-  * see video on usage on our main [MediaSpace Channel is here](COURSE_MEDIASPACE)
+  * cons: fewer features than PowerBI, more "tricky" to use
+  * see the video on usage on our main [MediaSpace Channel](COURSE_MEDIASPACE)
 
 ---
 
@@ -69,8 +69,8 @@ The trick for tutorials/videos is to search for "PowerBI service" or "online-onl
 
 * [Google Data Studio/Looker Studio](https://lookerstudio.google.com/)
   * pros: interactive visualizations, easy to share/embed in websites
-  * cons: less features than PowerBI, more "tricky" to use
-  * see video on usage on our main [MediaSpace Channel is here](COURSE_MEDIASPACE)
+  * cons: fewer features than PowerBI, more "tricky" to use
+  * see the video on usage on our main [MediaSpace Channel](COURSE_MEDIASPACE)
 * [Tableau](https://www.tableau.com/)
   * pros: widely used dashboarding software, popular
   * cons: \$\$ (the free [Tableau Public](https://public.tableau.com/) version makes all published viz public)
@@ -81,14 +81,14 @@ The trick for tutorials/videos is to search for "PowerBI service" or "online-onl
 
 * [Google Data Studio/Looker Studio](https://lookerstudio.google.com/)
   * pros: interactive visualizations, easy to share/embed in websites
-  * cons: less features than PowerBI, more "tricky" to use
-  * see video on usage on our main [MediaSpace Channel is here](COURSE_MEDIASPACE)
+  * cons: fewer features than PowerBI, more "tricky" to use
+  * see the video on usage on our main [MediaSpace Channel](COURSE_MEDIASPACE)
 * [Tableau](https://www.tableau.com/)
   * pros: widely used dashboarding software, popular
   * cons: \$\$ (the free [Tableau Public](https://public.tableau.com/) version makes all published viz public)
 * [Vega/Vega-lite](https://vega.github.io/)
   * pros: free, easily links to data on the web
-  * cons: requires more programming/JSON knowledge, tricker to embed in some webpages
+  * cons: requires more programming/JSON knowledge, trickier to embed in some webpages
   * see example of usage in [this online CV/resume for IS445](https://github.com/jnaiman/online_cv_public)
 
 ---

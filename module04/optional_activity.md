@@ -29,7 +29,7 @@ For this activity, you want to:
 #### Tips & Tricks
 
 **Tip:** You can upload .pbix files from "My Workspace" and then "Import" online:
-<img src="images/uploadpowerbi.png" style='border:1px solid #000000'>
+<img src="images/uploadpowerbi.png" style='border:1px solid #000000' alt="Power BI 'My workspace' with the Import menu open, showing 'From this computer', OneDrive and SharePoint options for importing .pbix files.">
 
 ## Downloading .pbix files to share
 
@@ -38,10 +38,10 @@ While not necessarily part of this activity, if you want to share your files, yo
 This is roughly [covered in the Microsoft official docs for PowerBI as a service](https://learn.microsoft.com/en-us/power-bi/create-reports/service-export-to-pbix).
 
 First, from your PowerBI *Workspace* you want to click on the **report** (this should be the little icon that has a barchart in it):
-<img src="images/click_on_report.png" style='border:1px solid #000000'>
+<img src="images/click_on_report.png" style='border:1px solid #000000' alt="A Power BI workspace listing with the Bad-to-Good Viz Level 1 Report item, the one with the bar chart icon, selected.">
 
 Then go to File and then select "Download File":
-<img src="images/include_data_from_report.png" style='border:1px solid #000000'>
+<img src="images/include_data_from_report.png" style='border:1px solid #000000' alt="An open Power BI report with the File menu outlined in red and the 'What do you want to download?' dialog, where 'A copy of your report and data (.pbix)' is selected.">
 You then want to select "include data" as an option.  You are then ready to upload the downloaded file into another Workspace, or have the students import the file.
 
 

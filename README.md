@@ -1,4 +1,6 @@
-# Course Template
+# Bolashak Scholars PowerBI Workshop
+
+Source for the workshop website (Jekyll + GitHub Pages).
 
 ## How to install and use locally
 
@@ -10,9 +12,13 @@
 6. Step 6: edit text files as needed to update slides, config, course data, etc
 7. Step 7: push changes to remote and wait for site to rebuild on the web (go to "Actions" tab on GitHub for progress)
 
-## Step up Course for new semester
+## Set up course for a new semester
 
-
+1. Make the new repo (e.g. `scholars_powerbi2027`) and enable GitHub Pages.
+2. In `_config.yml`, update the "CHANGE THESE EVERY SEMESTER" block. The `baseurl` is the only place the repo name is written. The workshop URL, GitHub links and walkthrough PDF links are all built from it.
+3. In `_data/class.yml`, update the semester, workshop date/time and room, and the `urls` (MediaSpace channel, IS445 link).
+4. In lecture slides, use the ALL-CAPS placeholders (`COURSE_WEBPAGE`, `COURSE_MEDIASPACE`, ...) instead of hardcoded URLs. The full list is in the header of `_data/class.yml`.
+5. Re-run the walkthroughs in the current Power BI / Excel, and work through `update_table.md`.
 
 ### Basic Info
 

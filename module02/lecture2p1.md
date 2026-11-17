@@ -55,18 +55,18 @@ first, let's understand how humans actually translate different kinds of visuals
 
 <table>
 <tr>
-<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_closure.gif"/></br>Closure</td>
-<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_hue.gif"/></br>Color</td>
-<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_size.gif"/></br>Size</td>
-<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_den.gif"/></br>Density</td>
-<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_curve.gif"/></br>Curvature</td>
+<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_closure.gif" alt="Field of open C-shaped rings with one closed circle among them."/><br>Closure</td>
+<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_hue.gif" alt="Field of short blue dashes with one red dash among them."/><br>Color</td>
+<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_size.gif" alt="Field of short blue dashes with one larger dash among them."/><br>Size</td>
+<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_den.gif" alt="Field of short blue dashes with one region where the dashes are packed more densely."/><br>Density</td>
+<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_curve.gif" alt="Field of straight blue dashes with one curved dash among them."/><br>Curvature</td>
 </tr>
 <tr>
-<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_lum.gif"/></br>Intensity</td>
-<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_orient.gif"/></br>Orientation</td>
-<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_3d_depth.gif"/></br>Depth Cues</td>
-<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_isect.gif"/></br>Intersection</td>
-<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_term.gif"/></br>Terminators</td>
+<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_lum.gif" alt="Field of blue dashes with one lighter, brighter blue dash among them."/><br>Intensity</td>
+<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_orient.gif" alt="Field of horizontal blue dashes with one tilted dash among them."/><br>Orientation</td>
+<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_3d_depth.gif" alt="Field of shaded 3D spheres with one sphere that appears to sit at a different depth from the rest."/><br>Depth Cues</td>
+<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_isect.gif" alt="Field of L-shaped marks with one plus sign (two intersecting lines) among them."/><br>Intersection</td>
+<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_term.gif" alt="Field of L-shaped marks with one T-shaped mark, whose line ends differ, among them."/><br>Terminators</td>
 </tr>
 </table>
 
@@ -86,11 +86,11 @@ Which image has the red dot?
 
 
 <div class="left">
-  <img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/colour_A.gif">
+  <img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/colour_A.gif" alt="Field of blue dots, all the same color, with no red dot.">
 </div>
 
 <div class="right">
- <img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/colour_P.gif">
+ <img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/colour_P.gif" alt="Field of blue dots with a single red dot that stands out immediately.">
 </div>
 
 Check out [csc2.ncsu.edu/faculty/healey/PP](https://www.csc2.ncsu.edu/faculty/healey/PP) for more examples and research.
@@ -106,7 +106,7 @@ this is why you probably immediately saw which of these images had a red dot in 
 ## Strength of Perception Channels
 
 
-<img src="images/perception_channels/stevensLaw.png">
+<img src="images/perception_channels/stevensLaw.png" alt="Stevens' psychophysical power law plot of perceived sensation versus physical intensity: electric shock (exponent 3.5) and saturation (1.7) curve upward, length (1) is a straight line, and area (0.7), depth (0.67) and brightness (0.5) curve downward. From Tamara Munzner, data from Stevens.">
 
 notes:
 different perception channels map more or less "truthfully" to data -- a fun example is shown here
@@ -124,7 +124,7 @@ also, don't try to visualize data with electric shocks please! :D
 
 ## Perception Channels to Data Encodings
 
-<img src="images/perception_channels/vad_slides_p51.png">
+<img src="images/perception_channels/vad_slides_p51.png" alt="Munzner's channel rankings. Magnitude channels for ordered attributes, from most to least effective: position on common scale, position on unaligned scale, length, tilt/angle, area, depth, color luminance, color saturation, curvature, volume. Identity channels for categorical attributes: spatial region, color hue, motion, shape.">
 
 notes:
 we can map the effectiveness of different perception channels roughly to the kinds of marks we want to make for different kinds of data
@@ -144,7 +144,9 @@ so, the natural next question would probably be, what kinds of precise plots sho
 
 ## What kinds of plots should we use with what kinds of data?
 
-<img src="https://formations.imt-atlantique.fr/data_storytelling/images/ds/charts_types.jpg" width="30%">
+<img src="images/types_of_charts/charts_types.jpg" width="30%" alt="Hand-drawn infographic 'Nuts and Bolts of Chart Types' from online-behavior.com, with sketches and joke captions for 12 charts including histogram, bar, pie, line, area, bubble, radar, waterfall, tree map, scatterplot and box plot.">
+
+Source: [online-behavior.com](https://online-behavior.com/analytics/chart-types/)
 
 notes:
 the short answer, is it depends but you'll definitely find suggestions from various folks out there
@@ -156,7 +158,7 @@ for example, this is a pretty silly chart...
 ## What kinds of plots should we use with what kinds of data?
 
 
-<img src="images/types_of_charts/pie_chart.png">
+<img src="images/types_of_charts/pie_chart.png" alt="Hand-drawn pie chart with the caption 'Extremely useful when creating a well designed document that is intended to people that will not read the data (e.g. management)'.">
 
 Caption: Extremely useful when creating a well designed document that is intended to people that will not read the data (e.g. management)
 
@@ -169,7 +171,7 @@ for example, it suggests that pie charts are good for management since that is a
 
 ## What kinds of plots should we use with what kinds of data?
 
-<img src="images/types_of_charts/histogram.png">
+<img src="images/types_of_charts/histogram.png" alt="Hand-drawn histogram with the caption 'Chart used by responsible analysts who understand the power of segmentation and the sadness that comes from aggregating data'.">
 
 Caption: Chart used by responsible analysts who understand the power of segmentation and the sadness that comes from aggregating data.
 
@@ -182,10 +184,10 @@ and suggests something like a histogram/barchart is for use by very serious anal
 
 Under "Syllabus" or "Module 2" on Course webpage.
 
-<img src="images/viz_resources.png" style='border:1px solid #000000'>
+<img src="images/viz_resources.png" style='border:1px solid #000000' alt="The Module 2 row of the syllabus table with the links '2. The Data Viz Picker' and '3. Data Viz Caveats' outlined in red.">
 
 notes:
-while you can find such snarky advise all over the internet, it might be useful for us to have a somewhat structured way to figure out what kind of plot to consider playing with with what kind of data
+while you can find such snarky advice all over the internet, it might be useful for us to have a somewhat structured way to figure out what kind of plot to consider playing with with what kind of data
 
 some resources for this are linked under Module 2 on the workshop website (and on the syllabus)...
 
@@ -217,7 +219,7 @@ To translate main page use [Google Translate for Webpages](https://translate.goo
 To translate main page use [Google Translate for Webpages](https://translate.google.com/?sl=auto&tl=en&op=websites) for the direct url: [https://www.data-to-viz.com/#spider](https://www.data-to-viz.com/#spider)
 
 "Hover-overs" won't work, so, keeping the original, untranslated site open pick a specific plot:
-<img src="images/clickonpage.png" width="80%">
+<img src="images/clickonpage.png" width="80%" alt="The data-to-viz.com histogram pop-up, with the 'See the dedicated page' link at the bottom outlined in red.">
 
 
 
@@ -228,7 +230,7 @@ To translate main page use [Google Translate for Webpages](https://translate.goo
 To translate main page use [Google Translate for Webpages](https://translate.google.com/?sl=auto&tl=en&op=websites) for the direct url: [https://www.data-to-viz.com/#spider](https://www.data-to-viz.com/#spider)
 
 "Hover-overs" won't work, so, keeping the original, untranslated site open pick a specific plot:
-<img src="images/clickonpage.png" width="80%">
+<img src="images/clickonpage.png" width="80%" alt="The data-to-viz.com histogram pop-up, with the 'See the dedicated page' link at the bottom outlined in red.">
 
 Then click on the last "dedicated page" link at the bottom and pass that URL to google translate, for example [https://www.data-to-viz.com/graph/histogram.html](https://www.data-to-viz.com/graph/histogram.html).
 
@@ -415,16 +417,16 @@ notes:
 
 ## Tufte's 6 Principles for Graphical Excellence
 
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/20240513134644/Pic-1.jpeg" width="80%">
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20240513134644/Pic-1.jpeg" width="80%" alt="Infographic of five Tufte principles: 1. Maximize data-ink ratio, 2. Minimize chartjunk, 3. Data over design variation, 4. Use small multiples, 5. Provide context.">
 
 notes:
-you'll often see representations like this which are more of a list things to not do
+you'll often see representations like this which are more of a list of things to not do
 
 ---
 
 ## Tufte's 6 Principles for Graphical Excellence
 
-<img src="images/tufte/g4g_dataInkRatio.jpeg" width="80%" alt="orig viz from: https://media.geeksforgeeks.org/wp-content/uploads/20240513134644/Pic-1.jpeg">
+<img src="images/tufte/g4g_dataInkRatio.jpeg" width="80%" alt="The same Tufte principles infographic with principle 1, 'Maximize Data-Ink Ratio', outlined in red. Original from geeksforgeeks.org.">
 
 notes:
 for example, "maximize data-ink ratio"
@@ -433,7 +435,7 @@ for example, "maximize data-ink ratio"
 
 ## Tufte's 6 Principles for Graphical Excellence
 
-<img src="https://i.ytimg.com/vi/JIMUzJzqaA8/maxresdefault.jpg">
+<img src="https://i.ytimg.com/vi/JIMUzJzqaA8/maxresdefault.jpg" alt="Two versions of the same monthly bar chart (Jan to Sep, 5% to 15%). Left, labeled 'low data-ink ratio', has a teal background and heavy grid lines. Right, labeled 'high data-ink ratio', has only the bars, with white lines cutting through them for the gridlines.">
 
 notes:
 this along with the "minimize chart junk" is very much centered around maximizing the "work" that each element of your visualization is doing to convey information to your viewer
@@ -444,7 +446,7 @@ for example the blue background here was not adding any useful information, same
 
 ## Tufte's 6 Principles for Graphical Excellence
 
-<img src="https://i.ytimg.com/vi/JIMUzJzqaA8/maxresdefault.jpg">
+<img src="https://i.ytimg.com/vi/JIMUzJzqaA8/maxresdefault.jpg" alt="Two versions of the same monthly bar chart (Jan to Sep, 5% to 15%). Left, labeled 'low data-ink ratio', has a teal background and heavy grid lines. Right, labeled 'high data-ink ratio', has only the bars, with white lines cutting through them for the gridlines.">
 
 [Storytelling with Data: A Data Visualization Guide for Business Professionals](https://i-share-uiu.primo.exlibrisgroup.com/permalink/01CARLI_UIU/q00vor/cdi_askewsholts_vlebooks_9781119002062) by Knaflic is a great resource for more info.
 
@@ -462,7 +464,7 @@ a little more practically, there is also the "Caveats" section of the Data-Viz-P
 
 similar with the viz-picker, once you have a type of plot, let's say a line plot, then you can head over to this page to see some of the caveats associated with these types of plots
 
-**click on spagetti chart**
+**click on spaghetti chart**
 
 **also click on the "misleading" tab**
 

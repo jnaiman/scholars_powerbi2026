@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/reset.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/reveal.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/theme/white.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/5.11.2/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 
 <!-- Theme used for syntax highlighting of code -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
@@ -27,8 +27,6 @@
 <script src="https://cdn.jsdelivr.net/npm/vega-embed"></script>
 {% endif %}
 
-</style>
-
   <link rel="stylesheet/less" type="text/css" href="{{ '/assets/styles.less' | relative_url }}" />
   </head>
 
@@ -40,27 +38,6 @@
               <h2>{{site.data.class.instructor.name}}</h2>
               <h2>{{site.data.class.course.name}} - {{site.data.class.course.semester}}</h2>
           </section>
-          <!--
-        <section data-markdown
-           data-separator="^\n---\n"
-           data-separator-vertical="^\n----\n">
-          <script type="text/template">
-{{page.content}}
-          </script>
-        </section>
-      -->
-        <!--
-<section data-markdown
-   data-separator="^\n---\n"
-   data-separator-vertical="^\n----\n">
-  <script type="text/template">
-{% capture slides %}
-{{ page.content }}
-{% endcapture %}
-{{ slides | replace: "PRESENTATION_TIME_PLACEHOLDER", page.presentation_time }}
-  </script>
-</section>  
--->
 {%- comment -%}
   Liquid is not rendered inside the slide markdown, so semester-specific values
   are written as ALL-CAPS placeholders in module*/lecture*.md and substituted
