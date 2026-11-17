@@ -19,7 +19,7 @@ just a few items before we get into the workshop as far as bureaucratic items an
 
 ## How to access the workshop website/slides
 
-Workshop webpage: [https://jnaiman.github.io/scholars_powerbi2025/](https://jnaiman.github.io/scholars_powerbi2025/)
+Workshop webpage: [COURSE_WEBPAGE/](COURSE_WEBPAGE/)
 
 notes:
 **make sure this is accessible on the web!**
@@ -44,7 +44,7 @@ So you all might be more adept at doing this than I, but a few pointers just in 
 
 ## The course webpage
 
-[The syllabus](https://jnaiman.github.io/scholars_powerbi2025/syllabus) covers more than we'll probably get to!
+[The syllabus](COURSE_WEBPAGE/syllabus) covers more than we'll probably get to!
 
 notes:
 **go over this**
@@ -57,9 +57,9 @@ notes:
 
 ## The course webpage
 
-[The syllabus](https://jnaiman.github.io/scholars_powerbi2025/syllabus) covers more than we'll probably get to!
+[The syllabus](COURSE_WEBPAGE/syllabus) covers more than we'll probably get to!
 
-Each Module on the [main course webpage](https://jnaiman.github.io/scholars_powerbi2025/) contains lecture slides, links to resources or data or various forms of the "walkthroughs" we'll be going over.
+Each Module on the [main course webpage](COURSE_WEBPAGE/) contains lecture slides, links to resources or data or various forms of the "walkthroughs" we'll be going over.
 
 notes:
 **go over this too**

@@ -92,6 +92,8 @@ layout: default
                         <a href="nbv.html?notebook_name={{f.dir | append: example.filename | relative_url | url_encode }}">{{example.title}}</a>
                 {% elsif example.type == "iodide" %}
                         <a href="{{example.link }}">{{example.title}}</a>	
+                {% elsif example.type == "github" %}
+                        <a href="https://github.com/{{site.githuburlbase}}{{site.baseurl}}/blob/{{site.branch}}/{{example.link}}">{{example.title}}</a>
                 {% elsif example.type == "webpage" %}
                         <a href="{{site.baseurl}}/assets/webpages/{{example.link }}">{{example.title}}</a>	
                 {% elsif example.type == "py" %}

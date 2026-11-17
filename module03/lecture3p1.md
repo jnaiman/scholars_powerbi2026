@@ -24,7 +24,7 @@ date: 2025-09-18
 notes:
 first let's ask, what exactly is PowerBI? 
 
-and then we can ask, how are we going to be using it in this class?
+and then we can ask, how are we going to be using it in this workshop?
 
 ---
 
@@ -36,11 +36,7 @@ and then we can ask, how are we going to be using it in this class?
 
 From the ["PowerBI Overview"](https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview):
 
-> Power BI consists of several elements that all work together, starting with these three basics:
-> 
-> * A Windows desktop application called Power BI Desktop.
-> * An online software as a service (SaaS) service called the Power BI service.
-> * Power BI Mobile apps for Windows, iOS, and Android devices.
+> Power BI has two main components: Power BI Desktop and the Power BI service. Desktop is best for data modeling and report creation, while the service is ideal for sharing and collaboration. Both can connect to data sources and create visualizations. There's also a Power BI Mobile app for viewing reports on the go.
 
 notes:
 here is a direct quote from one of the introductory overviews of powerbi
@@ -57,14 +53,10 @@ here is a direct quote from one of the introductory overviews of powerbi
 
 From the ["PowerBI Overview"](https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview):
 
-> Power BI consists of several elements that all work together, starting with these three basics:
-> 
-> * A Windows desktop application called Power BI Desktop.
-> * <font color='red'>An online software as a service (SaaS) service called the Power BI service.</font>
-> * Power BI Mobile apps for Windows, iOS, and Android devices.
+> Power BI has two main components: Power BI Desktop and <font color='red'>the Power BI service</font>. Desktop is best for data modeling and report creation, while the service is ideal for sharing and collaboration. Both can connect to data sources and create visualizations. There's also a Power BI Mobile app for viewing reports on the go.
 
 notes:
-Since not everybody has a windows machine, myself included, we'll be focused on the online-only version of PowerBI
+Power BI Desktop is Windows-only, and since not everybody has a windows machine, myself included, we'll be focused on the online-only version of PowerBI (the Power BI service)
 
 you are welcome to use the desktop app if you want, just be aware instructions may be slightly different, and I won't be able to help you debug your visualizations as easily
 
@@ -77,7 +69,7 @@ you are welcome to use the desktop app if you want, just be aware instructions m
 The online link is [https://app.fabric.microsoft.com/home?experience=power-bi](https://app.fabric.microsoft.com/home?experience=power-bi).
 
 notes:
-The link is available on the top of our Canvas Modules page, and linked here as well.
+The link is available on the syllabus and on the Module 1 and Module 3 pages of the workshop website, and linked here as well.
 
 ---
 

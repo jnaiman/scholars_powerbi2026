@@ -61,6 +61,18 @@
   </script>
 </section>  
 -->
+{%- comment -%}
+  Liquid is not rendered inside the slide markdown, so semester-specific values
+  are written as ALL-CAPS placeholders in module*/lecture*.md and substituted
+  here from _config.yml + _data/class.yml (see the header of _data/class.yml).
+  Order matters: a longer placeholder must be replaced BEFORE any shorter one
+  it starts with.
+{%- endcomment -%}
+{% assign co = site.data.class.course %}
+{% assign mediaspace = site.data.class.urls | where: "id", "mediaspace" | first %}
+{% assign is445 = site.data.class.urls | where: "id", "is445" | first %}
+{% assign course_webpage = site.url | append: site.baseurl %}
+{% assign course_github = "https://github.com/" | append: site.githuburlbase | append: site.baseurl %}
 <section data-markdown
    data-separator="^\n---\n"
    data-separator-vertical="^\n----\n">
@@ -73,6 +85,14 @@
     {% assign placeholder = "PAGE_" | append: item[0] | upcase %}
     {% assign processed = processed | replace: placeholder, item[1] %}
   {% endfor %}
+  {% assign processed = processed
+       | replace: "COURSE_WEBPAGE", course_webpage
+       | replace: "COURSE_GITHUB", course_github
+       | replace: "COURSE_MEDIASPACE", mediaspace.url
+       | replace: "COURSE_IS445", is445.url
+       | replace: "COURSE_SEMESTER", co.semester
+       | replace: "COURSE_NUMBER", co.number
+       | replace: "COURSE_NAME", co.name %}
   {{ processed }}
   </script>
 </section>

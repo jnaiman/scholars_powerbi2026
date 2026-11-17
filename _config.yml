@@ -13,12 +13,31 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+# ============================================================================
+# CHANGE THESE EVERY SEMESTER (part 1 of 2)
+#
+# This block is the *only* place the semester's repo name lives.  Everything
+# else (course webpage URL, GitHub URL, links to the walkthrough PDFs) is
+# derived from it:
+#
+#   course webpage : {{ site.url }}{{ site.baseurl }}
+#   course repo    : https://github.com/{{ site.githuburlbase }}{{ site.baseurl }}
+#
+# In lecture slides, use the COURSE_WEBPAGE / COURSE_GITHUB placeholders
+# instead (Liquid is not rendered inside slide bodies -- see _layouts/lecture.html).
+#
+# The other half of the per-semester settings (dates, people, MediaSpace,
+# related-course links) lives in _data/class.yml.
+#
+# NOTE: _config.yml is NOT reloaded by `jekyll serve` -- restart after editing.
+# ============================================================================
 title: Bolashak Scholars PowerBI Workshop
 email: jnaiman@illinois.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the course website the Bolashak Scholars PowerBI Workshop
-baseurl: "/scholars_powerbi2025" # the subpath of your site, e.g. /blog
-url: "https://jnaiman.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+  This is the course website for the Bolashak Scholars PowerBI Workshop
+githuburlbase: "jnaiman"                # GitHub user/org that owns the course repo
+baseurl: "/scholars_powerbi2026"        # repo name / subpath of the site
+url: "https://jnaiman.github.io"        # hostname & protocol, NO trailing slash
 github_username:  jnaiman
 branch: main
 port: 4009
@@ -41,6 +60,15 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 #
+# Setting `exclude` replaces Jekyll 3's default list, so the defaults are
+# repeated here, plus instructor-only notes that should not be published.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - update_table.md
+
 defaults:
   -
     scope:

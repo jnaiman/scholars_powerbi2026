@@ -19,7 +19,7 @@ date: 2025-09-18
 
 * [Downloadable Version of PowerBI](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
   * pros: more features, most of documentation focused on this
-  * cons: \$\$, available only for Windows
+  * cons: available only for Windows; free to download, but sharing reports with others requires a paid (Pro) license
 
 ---
 
@@ -27,7 +27,7 @@ date: 2025-09-18
 
 * [Downloadable Version of PowerBI](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
   * pros: more features, most of documentation focused on this
-  * cons: \$\$, available only for Windows
+  * cons: available only for Windows; free to download, but sharing reports with others requires a paid (Pro) license
 * Videos/Tutorials (make sure you search for web-only version)
   * example: [PowerBI Online](https://www.youtube.com/watch?v=b3dzutcZFoQ) (with example dashboard file)
   * example: [PowerBI Service in 15 minutes](https://www.youtube.com/watch?v=0W6zT_tNSpU)
@@ -39,7 +39,7 @@ date: 2025-09-18
 
 * [Downloadable Version of PowerBI](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
   * pros: more features, most of documentation focused on this
-  * cons: \$\$, available only for Windows
+  * cons: available only for Windows; free to download, but sharing reports with others requires a paid (Pro) license
 * Videos/Tutorials (make sure you search for web-only version)
   * example: [PowerBI Online](https://www.youtube.com/watch?v=b3dzutcZFoQ) (with example dashboard file)
   * example: [PowerBI Service in 15 minutes](https://www.youtube.com/watch?v=0W6zT_tNSpU)
@@ -61,7 +61,7 @@ The trick for tutorials/videos is to search for "PowerBI service" or "online-onl
 * [Google Data Studio/Looker Studio](https://lookerstudio.google.com/)
   * pros: interactive visualizations, easy to share/embed in websites
   * cons: less features than PowerBI, more "tricky" to use
-  * see video on usage on our main [MediaSpace Channel is here](https://mediaspace.illinois.edu/channel/Bolashak%2BScholars%2BPowerBI%2BWorkshop%2B2025/394597573)
+  * see video on usage on our main [MediaSpace Channel is here](COURSE_MEDIASPACE)
 
 ---
 
@@ -70,10 +70,10 @@ The trick for tutorials/videos is to search for "PowerBI service" or "online-onl
 * [Google Data Studio/Looker Studio](https://lookerstudio.google.com/)
   * pros: interactive visualizations, easy to share/embed in websites
   * cons: less features than PowerBI, more "tricky" to use
-  * see video on usage on our main [MediaSpace Channel is here](https://mediaspace.illinois.edu/channel/Bolashak%2BScholars%2BPowerBI%2BWorkshop%2B2025/394597573)
+  * see video on usage on our main [MediaSpace Channel is here](COURSE_MEDIASPACE)
 * [Tableau](https://www.tableau.com/)
   * pros: widely used dashboarding software, popular
-  * cons: \$\$, active development is less
+  * cons: \$\$ (the free [Tableau Public](https://public.tableau.com/) version makes all published viz public)
 
 ---
 
@@ -82,10 +82,10 @@ The trick for tutorials/videos is to search for "PowerBI service" or "online-onl
 * [Google Data Studio/Looker Studio](https://lookerstudio.google.com/)
   * pros: interactive visualizations, easy to share/embed in websites
   * cons: less features than PowerBI, more "tricky" to use
-  * see video on usage on our main [MediaSpace Channel is here](https://mediaspace.illinois.edu/channel/Bolashak%2BScholars%2BPowerBI%2BWorkshop%2B2025/394597573)
+  * see video on usage on our main [MediaSpace Channel is here](COURSE_MEDIASPACE)
 * [Tableau](https://www.tableau.com/)
   * pros: widely used dashboarding software, popular
-  * cons: \$\$, active development is less
+  * cons: \$\$ (the free [Tableau Public](https://public.tableau.com/) version makes all published viz public)
 * [Vega/Vega-lite](https://vega.github.io/)
   * pros: free, easily links to data on the web
   * cons: requires more programming/JSON knowledge, tricker to embed in some webpages
@@ -135,4 +135,4 @@ The trick for tutorials/videos is to search for "PowerBI service" or "online-onl
 <br><br>
 
 #### Other, programming-heavy options
-* Check out some of the [online materials for IS445](https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2025/)
+* Check out some of the [online materials for IS445](COURSE_IS445)

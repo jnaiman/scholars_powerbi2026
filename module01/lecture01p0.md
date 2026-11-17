@@ -53,7 +53,7 @@ We will be using the downloadable version in order to make use of [Power Query](
 notes:
 ... in order to do some data transformations with Power Query.
 
-Power query is something we won't be using right away, but we will starting Module 4, so it will be good to have Excel already downloaded on your computer and ready to go for next week.
+Power query is something we won't be using right away, but we will be using it starting in Module 4, so it will be good to have Excel already downloaded on your computer and ready to go before then.
 
 ---
 
@@ -113,7 +113,7 @@ again, this is in the Walkthrough #3 as well, so feel free to access the screens
 
 ---
 
-## How to get setup with Excel (for next week)
+## How to get setup with Excel
 
 See the "Install Excel through the WebStore" under the first Module in the Syllabus for more install instructions.
 
@@ -125,7 +125,7 @@ Basic [instructions on the WebStore page](https://webstore.illinois.edu/shop/pro
  <img src="images/excel/install_office.png" style='border:1px solid #000000' alt="Image of the installation of 'Install Office' button highlighted to download and install Microsoft office.">
 
  notes:
- as a reminder **you just need to be sure to have this done by next week!**
+ as a reminder **you just need to be sure to have this done before we get to Module 4!**
 
  we are happy to walk around now and make sure things install ok
 

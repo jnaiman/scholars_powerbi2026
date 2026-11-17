@@ -187,7 +187,7 @@ Under "Syllabus" or "Module 2" on Course webpage.
 notes:
 while you can find such snarky advise all over the internet, it might be useful for us to have a somewhat structured way to figure out what kind of plot to consider playing with with what kind of data
 
-some resources for this are under the "PowerBI Resources" Module on Canvas...
+some resources for this are linked under Module 2 on the workshop website (and on the syllabus)...
 
 ---
 
@@ -268,7 +268,7 @@ Excerpt from [ISDI](https://internationalservicedesigninstitute.com/tuftes-6-pri
 notes:
 so someone you should probably know about is Edward Tufte who's pretty famous in design
 
-while we won't have time to go through all of these principles in detail today (you'll get them in reading Knaflic over the next couple of weeks)... 
+while we won't have time to go through all of these principles in detail today (Knaflic's book, linked on the syllabus, covers them in more depth)... 
 
 ---
 
@@ -451,7 +451,7 @@ for example the blue background here was not adding any useful information, same
 notes:
 there will be more examples of this as you go through the reading, 
 
-and there are also some extra examples in Chapter 9 of Knaflic, though this is not required for the reading quizzes.
+and there are also some extra examples in Chapter 9 of Knaflic if you want to dig deeper after the workshop.
 
 ---
 
